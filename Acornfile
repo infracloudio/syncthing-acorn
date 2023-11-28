@@ -1,6 +1,7 @@
 name:        "Syncthing Sample Acorn"
 description: "Acorn running a sample Syncthing App"
 readme:      "./README.md"
+icon:        "syncthing_icon.png"
 
 containers: {
   syncthing: {
