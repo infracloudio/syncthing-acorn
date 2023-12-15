@@ -1,12 +1,14 @@
 # Deploying Syncthing on Acorn
 
-Are you someone who is trying to get away from Cloud Utilities like Google Drive, DropBox and are looking to synchronise your artifacts between multiple computers? This way you can truly control your data-flows and destinations. This is where Syncthing can help you achieve secure real-time P2P file synchronisation between multiple devices. It is similar to BitTorrent Sync, except its free and open source (FOSS). It is very private, has end-to-end encryption and the data is protected by the Block Exchange Protocol v1. 
+Are you trying to avoid using Cloud Utilities like Google Drive and Dropbox? Do you want to sync your files between different computers while having control over where your data goes? That's where Syncthing can help. It lets you securely sync files in real-time directly between your devices. It's like BitTorrent Sync, but it's free and open source. Syncthing is private, uses end-to-end encryption, and protects your data with the Block Exchange Protocol v1.
 
-If you are thinking of hosting your own Syncthing Server, you can consider using Acorn to manage the infrastructure without any overheads. Acorn is a versatile app platfom that facilitates running your containerized applications into a sandbox environment. All you need is a GitHub account to build, share and run your cloud-native deployments with an [Acornfile](https://docs.acorn.io/reference/acornfile), generating a deployable Acorn Image.
+If you want to run your own Syncthing Server, think about using Acorn to handle everything smoothly. Acorn is a flexible app platform that helps you run your specialized applications in a safe space. Just use your GitHub account to create, share, and run your cloud-ready setups with an [Acornfile](https://docs.acorn.io/reference/acornfile), creating a usable Acorn Image.
 
 In this tutorial, we'll see how to set up your Syncthing.
 
-If you want to skip to the end, just click [![Run in Acorn](https://acorn.io/v1-ui/run/badge?image=ghcr.io+infracloudio+syncthing-acorn:v%23.%23.%23-%23&ref=aashimodi14)](https://acorn.io/run/ghcr.io/infracloudio/syncthing-acorn:v%23.%23.%23-%23?ref=aashimodi14&name=syncthing-app)to launch the app immediately in a free sandbox environment. Sign in with your GitHub account to give Syncthing a shot!
+If you want to skip to the end, just click the below button to launch the app immediately in a free sandbox environment. Sign in with your GitHub account to give Syncthing a shot!
+
+[![Run in Acorn](https://acorn.io/v1-ui/run/badge?image=ghcr.io+infracloudio+syncthing-acorn:v%23.%23.%23-%23&ref=samkulkarni20)](https://acorn.io/run/ghcr.io/infracloudio/syncthing-acorn:v%23.%23.%23-%23?ref=samkulkarni20&name=syncthing)
 
 > _Note: Everything shown in this tutorial can be found in [this repository](https://github.com/infracloudio/syncthing-acorn)_.
 
